@@ -1,0 +1,31 @@
+{
+  "name": "csv2json2kinveyflex",
+  "version": "1.0.0",
+  "description": "Script, which converts CSV data to JSON, then sends this data to a Kinvey Flex Function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilger-progress/CSV2JSON2KinveyFlex.git"
+  },
+  "keywords": [
+    "CSV",
+    "JSON",
+    "Converting",
+    "Kinvey",
+    "Flex",
+    "Endpoint"
+  ],
+  "author": "Bilger Yahov @ Kinvey by Progress",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilger-progress/CSV2JSON2KinveyFlex/issues"
+  },
+  "homepage": "https://github.com/bilger-progress/CSV2JSON2KinveyFlex#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "request": "^2.88.0"
+  }
+}
